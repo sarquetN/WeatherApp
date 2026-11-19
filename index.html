@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div class="top">
+   <form id="form">
+       <input id="input" type="text" placeholder="Search city..." />
+       <input id="submit" type="submit" value="🔎" />
+       <input id="button" type="button" value="Current" />
+   </form>
+
+   <p class="time"></p>
+    </div>
+
+   <header>
+        <div class="row">
+
+            <div class="col-8">
+                <span class="city">Check the weather!</span>
+                <div class="temperature">  </div> 
+                <div class="units">  </div>                  
+
+                <div class="description"></div>
+                             
+                <p></p>
+
+            </div>
+
+            <div class="col-4">                      
+                <img >                   
+            </div>  
+
+        </div>
+   </header>
+
+   <hr>
+   <div class="forecast">
+   <div class="row">
+   
+
+        <div class="col-2">
+            <div class="day-1"></div>
+        </div>
+
+        <div class="col-2">
+            <div class="day-2"></div>
+        </div>
+        
+        <div class="col-2">
+            <div class="day-3"></div>
+        </div>
+         
+        <div class="col-2">
+            <div class="day-4"></div>
+        </div>
+
+       <div class="col-2">
+           <div class="day-5"></div>
+        </div>
+
+
+
+     </div>
+   </div>
+
+
+</div>
+
+Open source code by <a href="https://github.com/vio-zolja/Vanilla-Weather-App" target="_blank">Vio Zolja</a>
+
+<script src="script.js"></script>
+</body>
+</html>
